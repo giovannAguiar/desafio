@@ -1,0 +1,144 @@
+
+
+
+nav{
+    background-color: purple;
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: plum;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    transition: color 0.3s;
+}
+nav ul li a :hover{
+    color: plum;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+
+table{
+    width: 100;
+    border-collapse: collapse;
+    margin-bottom: 20%;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid purple;
+}
+
+th{
+    background-color: plum;
+    font-weight: bold;
+}
+.miniaturas img {
+    width: 70px; 
+    margin-right: 10px;
+    cursor: pointer; 
+}
+
+input.remover-produto{
+    background-color: rgb(91, 4, 91);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: plum;
+}
+
+.total-final{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.total-final h3{
+    color: rgb(204, 80, 204);
+}
+
+#total-final{
+    color: purple;
+}
+
+footer{
+    background-color: purple;
+    color:plum;
+    padding: 40px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section{
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color:plum;
+}
+.footer-section p, .footer-section ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.footer-section ul{
+    list-style-type: none;
+}
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+.footer-section ul li a{
+    color: plum;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover{
+    color: white;
+}
+.social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color:plum ;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-links a:hover{
+    color: rgb(220, 132, 194);
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+.footer-bottom p{
+    margin: 0;
+}

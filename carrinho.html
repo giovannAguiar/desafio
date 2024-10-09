@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrinho</title>
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="one page.html">inicio</a></li>
+            <li><a href="atividadelima1.html">sobre</a></li>
+            <li><a href="CURRICULUMlima.html">contato</a></li>
+
+        </ul>
+    </nav>
+    
+
+    <main>
+        <section class="carrinho">
+           <table>
+            <thead>
+                <tr>
+                    <th>produto</th>
+                    <th>quantidade</th>
+                    <th>preço unitario</th>
+                    <th>total</th>
+                    <th>ação</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>conjunto grecia
+                        <form class="opções-compra">
+                            <label for="tamanho">tamanho</label>
+                            <select id="tamanho">
+                            <option >P</option>
+                            <Option>M</Option>
+                            <Option>G</Option>
+                            <Option>GG</Option>
+                            </form>
+                    </td>
+                    <td>
+                        <div class="miniaturas">
+                            <img src="img/download (1).jfif" alt="miniatura1" class="miniatura" data-imagem="produto1">
+                            <input type="number" value="1" min="1" class="quantidade" >
+        
+                         </div>
+                    </td>
+                    <td class="preço-unitario">R$50,00</td>
+                    <td class="preço-total">R$50,00</td>
+                    <td>
+                        <button class="remover-produto">remover</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>vestido grecia 
+                    <br>
+                        <form class="opções-compra">
+                            <label for="tamanho">tamanho</label>
+                            <select id="tamanho">
+                            <option >P</option>
+                            <Option>M</Option>
+                            <Option>G</Option>
+                            <Option>GG</Option>
+                            </form>
+                    </td>
+                
+                    <td>
+                        <div class="miniaturas">
+                            <img src="img/download1.png" alt="miniatura2" class="miniatura" data-imagem="produto2">
+                            <input type="number" value="2" min="2" class="quantidade">
+                         </div>
+                    </td>
+                    <td class="preço-unitario">R$30,00</td>
+                    <td class="preço-total">R$60,00</td>
+                    <td>
+                        <button class="remover-produto">remover</button>
+                    </td>
+                </tr>
+            </tbody>
+           </table>
+                 <div class="total-final">
+                     <h3>total final: <span id="total-final">R$110,00</span></h3>
+                 </div>
+           
+        </section>
+    </main>
+
+
+<footer>
+    <div class="footer-container">
+    <div class="footer-section">
+        <h4>gigica</h4>
+        <p>somos uma loja de roupa feminina,
+            com roupas de alta qualidade</p>
+    </div>
+    <div class="footer-section">
+        <h4>menu</h4>
+        <ul>
+            <li><a href="#novidades">novidades</a></li>
+            <li><a href="#vestidos e saias">vestidos e saias</a></li>
+            <li><a href="#blusas">blusas</a></li>
+            <li><a href="#calça e shorts">calça e shorts</a></li>
+            <li><a href="#promoção">promoção</a></li>
+        </ul>
+   </div>
+   <div class="footer-section">
+    <h4>contato</h4>
+    <p>Email:loja feminina.com</p>
+    <p>telefone:(19)1234-5678</p>
+    <p>endereço:rua francisco,234,Campinas,SP</p>
+   </div> 
+   <div class="footer-section">
+      <h4>siga-nos</h4>
+      <div class="social-links">
+        <a href="https://www.instagram.com/" target="_blank">instagram da loja</a>
+      </div>
+   </div>
+</div>
+   <div class="footer-bottom">
+    <p>&copy; 2024 loja. todos os direitos reservados.</p>
+</div>
+</footer>
+    <script src="carrinho.js"></script>
+</body>
+</html>
